@@ -11,4 +11,4 @@ const square = exp => exp * exp
 square(2);
 
 //Arrow  function add
-const add = (a,b) => a + b;
+const add = (a = 3,b = 4) => a + b;
